@@ -34,7 +34,7 @@
   flex-wrap: wrap;
   justify-content: center;
   position: relative;
-  max-width: 300px;
+  width: 300px;
   min-height: 247px;
 }
 

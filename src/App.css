@@ -28,10 +28,28 @@
   color: #61dafb;
 }
 
+.App-animated-square {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  max-width: 300px;
+  min-height: 247px;
+}
+
+.App-square {
+  display: flex;
+  width: 29.5px;
+  height: 29.5px;
+  border: 1px solid var(--white-color);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -41,7 +42,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <div className="App-animated-square" id="animatedSquare" style={{ }}></div>
+        <div className="App-animated-square" id="animatedSquare"></div>
         <p>
           Taras Kaminskyi
         </p>
